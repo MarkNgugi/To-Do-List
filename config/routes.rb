@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   root "todo_list#Index"
 
   get "/todo-list", to: "todo_list#Index"
+  get "/todo-list/:id", to: "todo_list#show"
 
 end 
   

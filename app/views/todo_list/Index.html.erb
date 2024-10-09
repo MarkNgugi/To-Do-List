@@ -2,6 +2,6 @@
 
 <%@alltodo.each do |alltodo| %>
 <ul>
-<li> <%=alltodo.title%> </li>
+<li> <a href="/todo-list/<%=alltodo.id%>/"> <%=alltodo.title%> </a> </li>
 </ul>
 <%end%>
